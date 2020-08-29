@@ -2,17 +2,23 @@ body {
   background-color: pink;
   font-family: 'Open Sans', sans-serif;
   margin-right: 20%;
-  margin-left: 20%;
+margin-left: 20%;
 }
 
 #complaint {
 	padding: 40px;
-	width: 80%
 }
 #complaint section {
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#complaints {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section {
