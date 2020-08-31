@@ -1,19 +1,20 @@
 body {
-  background-color: pink;
+  background-color: rgba(94, 230, 178, 0.239);
   font-family: 'Open Sans', sans-serif;
   margin-right: 20%;
-margin-left: 20%;
+  margin-left: 20%;
+  line-height: 1.5em;
 }
 
-#complaint {
-	padding: 40px;
+div {
+    width: 600px;
+    margin: 5em auto;
+    padding: 2em;
+    background-color: #fdfdff;
+    border-radius: 1em;
+    box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
 }
-#complaint section {
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
-}
-
+/*
 #complaints {
   display: flex;
   flex-direction: column;
@@ -23,5 +24,33 @@ margin-left: 20%;
 
 section {
 	display: block;
-	padding: 30px;
 }
+*/
+
+/*  body {
+        background-color: #dcf2f2;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+    */
